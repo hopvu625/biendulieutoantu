@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>nhiet do</title>
+</head>
+<body>
+<label for="C">do c:</label>
+<input type="number" id="C" value="">
+<button onclick="sum()">Ket qua</button>
+<p id="F"></p>
+</body>
+</html>
+<script>
+    function sum() {
+        let c = document.getElementById("C").value;
+        let f = document.getElementById("F").value;
+        F = ((9*c)/5)+32;
+        document.getElementById("F").innerHTML = "do F=" + F
+    }
+</script>
